@@ -1,0 +1,228 @@
+<html lang="en"><head><base target="_blank">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>HTML Form</title>
+ </head>
+<body>
+<form method="get" action="demo.html">
+
+<fieldset><legend>Signup</legend>
+<table>
+<tbody><tr>
+<td>User name </td>
+<td><input type="text" maxlength="10" name="username" placeholder="EnterName"></td>
+<!-- autofocus autocomplete="autocomplete" -->
+</tr>
+<tr>
+<td>Password </td>
+<td><input type="password" maxlength="8" placeholder="Enter Password"></td>
+</tr>
+<tr>
+<td>Birth Date </td>
+<!-- <td><input type="date" id="birthdate"></td>
+<script>
+    const today = new Date().toISOString().split('T')[0];
+    document.getElementById("birthdate").setAttribute('min', today);
+</script> -->
+<td><input type="date" min="2024-10-08"></td>
+<!-- min="2023-10-01" always in yyyy-mm-dd formate -->
+</tr>
+<tr>
+<td>Contact Number </td>
+<td><input type="number"></td>
+<!--To put control on number <td><input type="tel" name="tel"/></td> -->
+</tr>
+<tr>
+<td>Email ID </td>
+<td><input type="email"></td>
+<!-- readomly placeholder="this is readonly field" -->
+</tr>
+<tr>
+<td>Gender </td>
+<td>
+<input type="radio" name="x" checked="">Male
+<input type="radio" name="x">Female
+<input type="radio" name="x">Others
+</td>
+</tr>
+<tr>
+<td>Semester</td>
+<td><input type="number" max="6" min="1"></td>
+</tr>
+
+<!-- <tr>
+<td>Age:</td>
+<td>  <input type="range" min="20" max="70" step="1"></td>
+</tr> -->
+         <!-- To display selected Age in box after using oninput attribute(*Reference)-->
+               <tr>
+                <td>Age:</td>
+   <td>  <input type="range" min="20" max="70" step="1" value="" oninput="num.value = this.value"></td>
+               </tr>
+                     <tr>
+        		<td>Your Age</td>
+       		<td><input type="text" id="num" disabled=""></td>
+      	        </tr> 
+<tr>
+<td>Location </td>
+<td>
+<select>
+<option selected="" disabled="" hidden=""> - - Select City - - </option>
+<optgroup label="GUJARAT">
+<option>Ahmedabad</option>
+<option>Gandhinagar</option>
+<option>Surat</option>
+</optgroup>
+
+<optgroup label="MAHARASTRA">
+<option>Mumbai</option>
+<option>Pune</option>
+<option>Kolhapur</option>
+</optgroup>
+</select>
+</td>
+</tr>
+<tr>
+<td>Area Of Intrest </td>
+<td>
+<input type="checkbox">DS
+<input type="checkbox">DBMS
+<input type="checkbox" checked="">Full Stack
+</td>
+</tr>
+<tr>
+<td>Address </td>
+<td> <textarea rows="6" cols="20">This has to erase manually</textarea> </td>
+</tr>
+<tr>
+<td>Upload CV </td>
+<td><input type="file" multiple=""></td>
+</tr>
+<tr>
+<td><input type="submit" value="Submit"></td>
+<td><input type="reset" value="Reset"></td>
+</tr>
+
+</tbody></table>
+</fieldset>
+</form>
+
+
+</body><html lang="en"><head><base target="_blank">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>HTML Form</title>
+ </head>
+<body>
+<form method="get" action="demo.html">
+
+<fieldset><legend>Signup</legend>
+<table>
+<tbody><tr>
+<td>User name </td>
+<td><input type="text" maxlength="10" name="username" placeholder="EnterName"></td>
+<!-- autofocus autocomplete="autocomplete" -->
+</tr>
+<tr>
+<td>Password </td>
+<td><input type="password" maxlength="8" placeholder="Enter Password"></td>
+</tr>
+<tr>
+<td>Birth Date </td>
+<!-- <td><input type="date" id="birthdate"></td>
+<script>
+    const today = new Date().toISOString().split('T')[0];
+    document.getElementById("birthdate").setAttribute('min', today);
+</script> -->
+<td><input type="date" min="2024-10-08"></td>
+<!-- min="2023-10-01" always in yyyy-mm-dd formate -->
+</tr>
+<tr>
+<td>Contact Number </td>
+<td><input type="number"></td>
+<!--To put control on number <td><input type="tel" name="tel"/></td> -->
+</tr>
+<tr>
+<td>Email ID </td>
+<td><input type="email"></td>
+<!-- readomly placeholder="this is readonly field" -->
+</tr>
+<tr>
+<td>Gender </td>
+<td>
+<input type="radio" name="x" checked="">Male
+<input type="radio" name="x">Female
+<input type="radio" name="x">Others
+</td>
+</tr>
+<tr>
+<td>Semester</td>
+<td><input type="number" max="6" min="1"></td>
+</tr>
+
+<!-- <tr>
+<td>Age:</td>
+<td>  <input type="range" min="20" max="70" step="1"></td>
+</tr> -->
+         <!-- To display selected Age in box after using oninput attribute(*Reference)-->
+               <tr>
+                <td>Age:</td>
+   <td>  <input type="range" min="20" max="70" step="1" value="" oninput="num.value = this.value"></td>
+               </tr>
+                     <tr>
+        		<td>Your Age</td>
+       		<td><input type="text" id="num" disabled=""></td>
+      	        </tr> 
+<tr>
+<td>Location </td>
+<td>
+<select>
+<option selected="" disabled="" hidden=""> - - Select City - - </option>
+<optgroup label="GUJARAT">
+<option>Ahmedabad</option>
+<option>Gandhinagar</option>
+<option>Surat</option>
+</optgroup>
+
+<optgroup label="MAHARASTRA">
+<option>Mumbai</option>
+<option>Pune</option>
+<option>Kolhapur</option>
+</optgroup>
+</select>
+</td>
+</tr>
+<tr>
+<td>Area Of Intrest </td>
+<td>
+<input type="checkbox">DS
+<input type="checkbox">DBMS
+<input type="checkbox" checked="">Full Stack
+</td>
+</tr>
+<tr>
+<td>Address </td>
+<td> <textarea rows="6" cols="20">This has to erase manually</textarea> </td>
+</tr>
+<tr>
+<td>Upload CV </td>
+<td><input type="file" multiple=""></td>
+</tr>
+<tr>
+<td><input type="submit" value="Submit"></td>
+<td><input type="reset" value="Reset"></td>
+</tr>
+
+</tbody></table>
+</fieldset>
+</form>
+
+
+</body></html></html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+
+
+

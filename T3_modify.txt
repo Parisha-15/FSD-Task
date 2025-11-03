@@ -1,0 +1,14 @@
+<head>
+    <link rel="stylesheet" href="Style.css" type="text/css">
+</head>
+<body>
+    <h1>
+        This is External CSS
+    </h1>
+    <p>
+        Welcome to CSS World
+    </p>
+    <pre>
+        Hello!
+    </pre>
+</body>

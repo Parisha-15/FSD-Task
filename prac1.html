@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <style>
+            button:hover{background-color: blue;}
+            button:active{background-color: green;}
+            button:focus{background-color: cyan;}
+            ul li:nth-child(1){background-color: red;font-weight:bold;}
+            ul li:not(.special){font-style: italic;color: cyan;}
+        </style>
+    </head>
+    <body>
+        <button value="Click me">Click me</button>
+        <br>
+        <input type="text">
+        <ul>
+            <li>
+                1st Child
+            </li>
+            <li>
+                2nd Child
+            </li>
+            <li class="special">
+                not eligible
+            </li>
+            <li>
+                last Child
+            </li>
+        </ul>
+    </body>
+</html>
