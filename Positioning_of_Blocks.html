@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <style>
+            .Container{margin-top:50px;height: 800px;border: 1px solid red;
+            position: relative;}
+            .text{margin-left: 20px;height: 100px;width: 100px;text-align: center;}
+            #a{background-color: tomato;left: 100px;}
+            #b{background-color: cyan;position: relative;top: 0px;left: 60px;
+            z-index:-1}
+            #c{background-color:green; position:  absolute;top: 100px;right: 0px;}
+            #d{background-color: pink;position: fixed;top: 0px;right: 20px;}
+            #e{background-color: orange;position:sticky;top: 10px;left:100px;}
+        </style>   
+    </head>
+    <body>
+        <div class="Container">  <div class="text" id="b">
+                2
+            </div>
+            <div class="text" id="a">
+                1
+            </div>
+          
+            <div class="text" id="c">
+                3
+            </div>
+            <div class="text" id="d">
+                4
+            </div>
+            <div class="text" id="e">
+                5
+            </div>
+            <div class="Container">
+                
+            </div>
+        </div>
+    </body>
+</html>
