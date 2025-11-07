@@ -1,0 +1,23 @@
+<!-- 2 box having dimension 200px*200px while hovering on it Box A should travel on bottom 
+ right on 100px also rotate by 90degree AND INCREMENT IN WIDTH IS ABOUT 50 % OF ACTUAL WIDTH
+WHILE HOVERING bOX b ROTATE 45 DEG AND SKEW 30 DEG -->
+<html>
+    <head>
+        <style>
+            div{width:200px; height: 200px; background-color: blueviolet;margin: 20px;}
+            .a:hover{transform: rotate(100px,100px) rotate (90deg) scale (1.5,1);background-color: aqua;}
+            .b:hover{transform: rotate(45deg) skewY(30deg);background-color: cornflowerblue  }                                                                                             ;}
+            .c:hover{transform: scaleX(-1);width: 300px;height: 300px;}
+
+        </style>
+    </head>
+    <body>
+        <div CLASS="a">
+            BOX-A
+        </div>
+         <div CLASS="b">
+            BOX-B
+        
+            <img src="a.png" class="c">          
+    </body>
+</html>
