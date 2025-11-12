@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <style>
+        .container{display:flex}
+        nav{background-color: cyan;
+        padding: 10px;
+    width: 30%;
+text-align:center}
+section{
+    background-color: tomato;
+    padding: 10px;
+    width: 70%;
+}
+@media (max-width:380px) {
+    .container{flex-direction: column;}
+    nav{order: -1;display: none;}
+    nav,section{width: 100%;}
+    
+}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <section>
+                <h2>
+                    Content Area
+                </h2>
+            </section>
+            <nav>
+                <a href="#">
+                    home
+                </a>
+            </nav>
+            <nav>
+                <a href="#">
+                    About
+                </a>
+            </nav>
+                <nav>
+                      <a href="#">
+                    Contact
+                </a>
+                </nav>
+              
+        </div>
+    </body>
+</html>
