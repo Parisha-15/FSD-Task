@@ -1,0 +1,27 @@
+<html>
+    <script>
+        let fruits=["a","b"]
+        fruits.push("c")
+        console.log(fruits)
+        z=fruits.pop()
+        console.log(fruits)
+        console.log(z)
+        let nums=[1,2,3,4]
+        let sq=nums.map(num=>num*num)
+        console.log(sq)
+        let ages=[12,18,25,30]
+        let adult=ages.filter(age=>age>=18)
+        console.log(adult)
+        let names=["A","B","C"]
+        names.forEach(name=>{console.log("hello"+name)})
+        let colors=["red","green","blue"]
+        console.log(colors.includes("green"))
+        console.log(colors.includes("tomato"))
+        let users=[{id:1,name:"A"},{id:2,name:"B"},{id:3,name:"C"}]
+        let u=users.find(u=>u.id===2)
+        console.log(u)
+        console.log(users[2].name)
+
+    </script>
+
+</html>
