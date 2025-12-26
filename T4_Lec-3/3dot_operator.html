@@ -1,0 +1,44 @@
+<script>
+    // ... Operator as Rest 
+    // function fun(a,b,...c)
+    // {
+    //     console.log(a)
+    //     console.log(b)
+    //     console.log(c)
+    //     console.log(c.length)
+    //     console.log(c[2])
+    //     console.log(c.indexOf(4))
+    //     console.log(c.indexOf(2))
+    // }
+    //         fun(1,2,3,4,5)
+
+
+// ... Opreator as Spread 
+// const arr1=[3,2,1]
+// const arr2=[4,5]
+// const arr=[arr1,arr2]
+// console.log(arr)
+// console.log(arr.sort())
+// const farr=[...arr1,...arr2]
+// console.log(farr)
+// console.log(farr.sort())
+// console.log(...farr)
+// console.log(Math.min(...farr))
+// console.log(Math.min(farr))
+
+function fun(bg,tx,size="20px",fs="italic")
+{
+    i=document.getElementById("a1")
+    i.style.color=tx;
+    i.style.backgroundColor=bg;
+    i.style.fontSize=size;
+    i.style.fontStyle=fs;
+
+}
+
+</script>
+<body>
+    <div id="a1" >Hello
+    </div>
+    <input type="submit" onclick="fun('tomato','cyan')" value="click me">
+</body>
