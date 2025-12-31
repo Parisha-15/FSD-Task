@@ -1,0 +1,19 @@
+<html>
+    <body>
+<div onmouseover="fun1(this)" onmouseout="fun2(this) " style="height:100px ;width: 50px;background-color:tomato;">
+
+    </div>
+    </body>
+    <script>
+        function fun1(e)
+        {
+            e.innerHTML='click pressed'
+            e.style.backgroundColor='cyan'
+        }
+         function fun2(e)
+        {
+            e.innerHTML='click released'
+            e.style.backgroundColor='pink'
+        }
+    </script>
+</html>
