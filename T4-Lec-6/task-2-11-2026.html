@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <form name="f1" onsubmit="fun()">
+            Firstname:<input type="text" name="fname" value="" placeholder="Enter your first name">
+            <!-- if in value=" " space used then obj1.length!="5" will co -->
+            <input type="submit">
+
+            </form>
+        <script>
+            function fun()
+        {
+                obj1=document.f1.fname.value
+                if(isNaN(obj1))
+            {
+                alert("Enter Number only")
+            }
+            else if(obj1.length!="4")
+            {
+                alert("Enter 4 digit")
+            }
+            else{
+            alert(obj1)
+            }
+        }
+        </script>
+    </body>
+</html>

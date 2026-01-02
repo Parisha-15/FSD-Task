@@ -1,0 +1,40 @@
+<html>
+          <body onkeypress="KC1(event)"> 
+
+    <!-- 2.  <body onkeypress="KC(event)"> -->
+        <!-- 1. <select onchange="fun(event)">
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+
+        </select> -->
+              <!-- <body onkeydown="KC(event)"> -->
+
+        <script>
+            // 2 & 3.  function KC(e)
+            // {
+            //     alert("keypressed => "+e.key)
+            //     alert("KEYCODE => "+e.keyCode)
+
+            // }
+
+            // 1.  function fun(e)
+            // {
+            //     // alert(e.target.value)     Red or green
+            //     // alert(e.target.tagName)   SELECT
+            //     // alert(e.type)             change
+            // }
+              function KC1(e)
+            {
+                if(e.key==("A" || "E" || "I" ||"O" ||"U"||"a" || "e" || "i" ||"o" ||"u"))
+            {
+                alert("vowel is: "+e.key+" and its key code is: "+e.keyCode)
+            }
+            else
+            {
+                alert("not vowel is: "+e.key+" and its key code is: "+e.keyCode)
+            }
+            }
+        </script>
+        
+    </body >
+</html>
