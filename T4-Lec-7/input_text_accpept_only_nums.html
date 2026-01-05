@@ -1,0 +1,14 @@
+<html>
+    <body>
+    <input type="text" id="a">
+    <script>
+        const input=document.querySelector("#a")
+                                                                                                                                   
+        input.addEventListener('keydown',e=>{
+            if((isNaN(e.key)) && (e.key!=='DELETE')) {
+            e.preventDefault()
+        }
+        })
+    </script>
+</body>
+</html>    

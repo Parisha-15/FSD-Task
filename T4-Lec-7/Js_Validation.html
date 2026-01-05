@@ -1,0 +1,31 @@
+<html>
+    <body>
+    <input type="text" id="a">
+    <input type="submit" onclick="fun()">
+    </body>
+    <script>
+        function fun()
+        {
+            // Pat=/abc/   case-sensitive 
+            // Pat=/abc/i                                       //  not case-sensitive
+            // Pat=/bo*/  
+            // Pat=/^A/ 
+            // Pat=/t$/  
+            // Pat=/\w/   
+            // Pat=/^[A-Z a-z]^\{1,}$/ not working
+                // Pat=/^[A-Z a-z]+$/  only alphabet
+  
+   
+  
+
+            u=document.getElementById('a').value
+            if(Pat.test(u)){
+                alert("Perfect")
+            }
+            else{
+                alert("not alllowed")
+
+            }
+        }
+    </script>
+</html>

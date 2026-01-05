@@ -1,0 +1,24 @@
+<html>
+    <body>
+    <input type="text" id="a">
+    <input type="password" id="b">
+    <input type="submit" onclick="fun()">
+    </body>
+    <script>
+        function fun()
+        {
+            Pat=/[^@]+[^_]+^[0-9]/
+            u=document.getElementById('a').value
+            if(((u.length>=6) || (u.length<=12) ) && (Pat){
+                alert("Pwd must be 8 digit")
+            }
+            else if(Pat.test(u)==0){
+                alert("must contain special character")
+
+            }
+            else{
+                alert("Perfect")
+            }
+        }
+    </script>
+</html>
