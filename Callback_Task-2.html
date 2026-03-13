@@ -1,0 +1,26 @@
+<!-- Write a js code that display ”Hello” with increasing font size in interval of 50ms in blue colour and 
+it should stop when font size reaches to 50px. -->
+<!-- Initialise two variables and increment both the variables each time and display addition of both variables at interval of 1 sec -->
+<body>
+            <button type="button" value="font-size" onclick="fun222()">font-size</button>
+    <p id="size1" style="color: blue;">Hello</p>
+
+<script>
+size=15
+function fun(size){
+    document.getElementById('size1').style.fontSize=size
+}
+function fun2(){
+setInterval(()=>
+{
+    if(size<=50)
+    {
+        fun2(size++)
+    }
+},50)
+}
+    
+
+    
+</script>
+</body>
