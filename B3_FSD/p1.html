@@ -1,0 +1,19 @@
+<!-- Initialise two variables and increment both the variables each time and display addition of both variables at interval of 1 sec -->
+<body>
+    <div id="sum1" style="background-color: aqua; width:100px;height:100px"></div>
+<script>
+let a=3
+let b=4
+let count=0
+let i=setInterval(()=>{
+document.getElementById('sum1').innerHTML=++a + ++b
+count++
+if(count===5)
+{
+    clearInterval(i)
+}
+},1000)
+
+
+</script>
+</body>
