@@ -1,0 +1,7 @@
+var fs=require('fs')
+// fs.mkdirSync("Date-13")
+// fs.writeFileSync("Date-13/lec1.txt","Text file created")
+// var data=fs.readFileSync("Date-13/lec1.txt","UTF-8")
+// console.log(data)
+fs.unlink("Date-13/lec1.txt")
+fs.rmdirSync("Date-13")
